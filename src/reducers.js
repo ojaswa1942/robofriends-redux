@@ -11,8 +11,6 @@ export const searchRobots = (state=initialState, action={}) =>{
 			/*Or using object destructuring
 			return { ...state, searchField: action.payload }
 			*/
-			break;
-
 		default: 
 			return state; //Pure func - return something
 	}
